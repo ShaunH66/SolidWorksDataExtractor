@@ -4,8 +4,6 @@ import win32com.client.dynamic
 import pythoncom
 import os
 import pandas as pd
-import tkinter as tk
-from tkinter import filedialog
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
@@ -348,4 +346,5 @@ if st.session_state['data_df'] is not None:
         data=csv,
         file_name="SW_Batch_Results.csv",
         mime="text/csv"
+
     )
