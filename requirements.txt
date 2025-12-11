@@ -8,4 +8,4 @@ pandas==2.2.1
 
 # Windows API extensions to communicate with SolidWorks (COM/ActiveX)
 # Note: This is required to make the connection to the SolidWorks application.
-pywin32==306
+pywin32
